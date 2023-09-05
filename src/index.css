@@ -10,3 +10,18 @@ body {
   box-sizing: border-box;
 }
 
+/* Modificaciones Bootstrap */
+
+/* Navbar */
+.navbar-nav .nav-link.active {
+  color: orange;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.navbar-toggler {
+  border: none;
+}

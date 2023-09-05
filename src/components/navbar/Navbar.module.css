@@ -1,0 +1,29 @@
+.navBar {
+  background-color: #01255c;
+}
+
+.logo {
+  width: 200px;
+}
+
+@media (min-width: 968px) {
+  .navItem {
+    border-left: 2px solid orange;
+  }
+}
+
+.navItem:first-child {
+  border-left: none;
+}
+
+.navLink {
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 2rem;
+  transition: 0.5s;
+}
+
+.navLink:hover {
+  color: orange;
+}
